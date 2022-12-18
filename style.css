@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#game {
+}
+
+.desc h2 {
+  color: #fff;
+  z-index: 999;
+}
+
+#space {
+  z-index: 999;
+}
+
+.game_video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.music {
+  width: 300px;
+  margin-bottom: 20px;
+}
